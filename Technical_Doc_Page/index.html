@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Technical Documentation Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav id="navbar">
+		<header><h1>Scroll Documentation</h1></header>
+		<ul id="nav-content">
+			<a href="#Introduction" class="nav-link"><li>Introduction</li></a><hr>
+			<a href="#Things_to_Know" class="nav-link"><li>Things to Know</li></a><hr>
+			<a href="#Your_First_Spell" class="nav-link"><li>Your First Spell</li></a><hr>
+			<a href="#Setting_Elements" class="nav-link"><li>Setting Elements</li></a><hr>
+			<a href="#Writing_Spells" class="nav-link"><li>Writing Spells</li></a><hr>
+			<a href="#Invoking_Spells" class="nav-link"><li>Invoking Spells</li></a><hr>
+		</ul>
+	</nav>
+	<main id="main-doc">
+		<section class="main-section" id="Introduction">
+			<header><h2>Introduction</h2></header>
+			<p>Scroll is a language used to write magic and cast spells. It's a simple tool meant to allow even those with very little knowledge of magic to cast spells and perform tasks. The advantage of Scroll is that allows for spells to be invoked at any time. Spells can be stored for years without having to worry about the magical energy used to cast them fading away.</p>
+			<p>Scroll contains and simplifies many of the esoteric tools that one would otherwise need to know if they wanted to perform magic. Learning Scroll does not require any magical talent or ability at all. Therefore, this guide will only cover the following things.</p>
+			<ul>
+				<li>How to set and store spells.</li>
+				<li>How to invoke a stored spell, even if you do not know its original invocation.</li>
+				<li>How to write creative spells to be invoked in scroll</li>
+			</ul>
+		</section>
+		<section class="main-section" id="Things_to_Know">
+			<header><h2>Things to Know</h2></header>
+			<p>While using scroll requires no prior knowledge of magic, writing scroll does. It's not much, but there is some basic info one needs to know before attempting to write scroll. You'll need to know some information about the elements used to cast spells. Light knowledge about the keywords used to cast spells is also a bonus. The following sources can be used to brush up on said info before continuing to read this guide.</p>
+			<ul>
+				<li><a href="#" class="ext_source">The Complete Cheatsheet to all 12 Elements of the World</a></li>
+				<li><a href="#" class="ext_source">Magical Keywords and How to Use Them</a></li>
+			</ul>
+		</section>
+		<section class="main-section" id="Your_First_Spell">
+			<header><h2>Your First Spell</h2></header>
+			<p>The traditional way to begin writing Scroll descends from how mages have learned magic for ages. In your scroll, simply jot down the following.</p>
+			<code>
+				set element: Light<br/>
+				spell greeting(element, "Hello World!")<br/>
+				invoke greeting<br/>
+			</code>
+			<p>Once your spell is invoked, you should see it come to life before your eyes in the form of a brilliant light!</p>
+		</section>
+		<section class="main-section" id="Setting_Elements">
+			<header><h2>Setting Elements</h2></header>
+			<p>
+				Before writing any spells, the first one always needs to do is set the element or elements that will be used to cast the spell. Elements are set by using the keyword "set" followed by the keyword "element" and a colon. There are 12 valid elements names.
+			</p>
+			<code>
+				Light <br/>
+				Dark <br/>
+				Fire <br/>
+				Water <br/>
+				Earth <br/>
+				Sky<br/>
+				Ice <br/>
+				Magma <br/>
+				Chaos <br/>
+				Nightmare <br/>
+				Mirror <br/>
+				Shadow <br/>
+			</code>
+			<p>If need be, you can set multiple elements for a single spell, but this may have unforseen side effects if the elements you set aren't conventionally used for the spell you'll be casting.</p>
+			<code>set element: Water, Earth, Sky</code>
+		</section>
+		<section class="main-section" id="Writing_Spells">
+			<header><h2>Writing Spells</h2></header>
+			<p>Writing and storing spells in scroll is trivial. You type the "spell" keyword followed by the name of the spell. Then in parenthesis, type "element" followed by a comma, and then type the contents of said spell. The example below is a spell used to grow plants.</p>
+			<code>
+				set element: Earth, Water <br/>
+				spell grow(element, Accelerate plant growth)
+			</code>
+		</section>
+		<section class="main-section last-section" id="Invoking_Spells">
+			<header><h2>Invoking Spells</h2></header>
+			<p>All writing spells does is store it inside of the scroll. Users still need ways to activate the spells you've written. This is where invoking spells come in. In order to invoke spells, type the invoke keyword followed by the spell name. To invoke the growth spell we came up with in the previous section, we would write the following.</p>
+			<code>
+				invoke grow
+			</code>
+			<p>And that's it! You now know everything you need in order to write, store, and invoke simple spells in Scroll</p>
+		</section>
+	</main>
+</body>
+</html>
