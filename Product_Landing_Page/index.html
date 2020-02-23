@@ -1,0 +1,144 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+  <meta 
+        name="viewport"
+        content="initial-scale=1">
+</head>
+
+<header
+        id="header">
+  <label
+         id="menu-label"
+         for="menu">
+    <span class="hamburger"></span>
+    <span class="hamburger"></span>
+    <span class="hamburger"></span>
+  </label>
+  <input
+         id="menu"
+         type="checkbox">
+  <nav id="nav-bar">
+    <ul>
+      <li>
+        <img
+          id="header-img"
+          src="https://raw.githubusercontent.com/DrantDumani/Codepen-assets/master/Product-landing-page/Link_Between_Worlds_triforce.png"
+          title="Painter's Portraits"
+          alt="Company logo">
+      </li>
+      <li>
+        <a class="nav-link"
+        href="#paint">About the art</a>
+      </li>
+      <li>
+        <a class="nav-link"
+        href="#video">The Creative Process</a>
+      </li>
+      <li>
+        <a class="nav-link"
+        href="#form">Order Now!</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <h1>Magical, Perfect Portraits</h1>
+  <div
+       id="paint"
+       class="art">
+    <img
+         class="original"
+         src="https://www.zeldaspalace.com/images/albw/irene.jpg">
+    <img
+         class="painting"
+         src="https://vignette.wikia.nocookie.net/zelda/images/a/aa/Irene_Painting.png/revision/latest?cb=20140111062751">
+    <h2>Lifelike</h2>
+    <p>The artist's talent truly captures the very essence of the original article. Every detail is preserved in the making of the portrait. Simply compare the original and the portrait.</p>
+  </div>
+    <div
+         class="art">
+    <img
+         class="original"
+         src="https://www.zeldaspalace.com/images/albw/ceres.jpg">
+    <img
+         class="painting"
+         src="https://vignette.wikia.nocookie.net/zelda/images/7/73/Seres_Painting.png/revision/latest?cb=20140111083123">
+      <h2>Perfect Preservation</h2>
+      <p>The artist uses everlasting material to create his paintings, forever immortalizing his subjects in his work. The portraits, down to their very frames, require no additional maintenance.</p>
+  </div>
+  
+<iframe
+        id="video"
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/8R3BuCWNRWM?start=659" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  
+  </iframe>
+  <em><p
+     class="vid-caption">
+    Watch the artist at work!</p></em>
+  
+  <form
+        id="form"
+        action="https://www.freecodecamp.com/email-submit">
+    
+      <h3>Order Now!</h3>
+      <p>If you are unsatisfied with your purchase, the artist will personally deliver a portrait of you for free!</p>
+    <ul
+         id="order-form">
+      <li>
+      <label
+             for="zelda">
+        <img
+            class="orders"
+            src="https://vignette.wikia.nocookie.net/zelda/images/3/32/Princess_Zelda_Painting.png/revision/latest?cb=20140111074149">
+        <p>2400R</p>
+      </label>
+        <div>
+      <input
+             id="zelda"
+             value="zelda"
+             name="orders"
+             type="checkbox">
+        </div>
+      </li>
+      <li>
+            <label
+                   for="impa">
+        <img
+            class="orders"
+            src="https://vignette.wikia.nocookie.net/zelda/images/e/e9/Impa_Painting.png/revision/latest?cb=20140111074957">
+              <p>1200R</p>
+      </label>
+        <div>
+      <input
+             id="impa"
+             value="impa"
+             name="orders"
+             type="checkbox">
+        </div>
+      </li>
+    </ul>
+    <label
+           for="email">
+      Email:
+    </label>
+    <input
+           type="email"
+           id="email"
+           name="email"
+           placeholder="Enter your email here"
+           required>
+    <input
+           type="submit"
+           id="submit"
+           value="Submit">
+  </form>
+</main>
+<footer id="footer">
+  <p>Painter's Portraits &copy 2013</p>
+  </footer>

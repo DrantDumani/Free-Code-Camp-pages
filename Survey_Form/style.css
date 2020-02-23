@@ -1,0 +1,55 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: cyan;
+  padding: 15px 0;
+}
+
+#survey-form {
+  margin: auto;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+#title {
+  text-align: center;
+  margin: 0%;
+}
+
+#description {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.outer-flex {
+  max-width: 85%;
+}
+
+.outer-flex li, .inner-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 8px;
+  padding-right: 40px;
+}
+
+.outer-flex > li > label, .outer-flex li span {
+  flex: 1 0 100px;
+  max-width: 200px;
+}
+
+.outer-flex > li > * + *, .inner-flex{
+  flex: 1 0 200px;
+}
+
+li {
+  margin-bottom: 3%;
+}
+
+#submit {
+  display: block;
+  margin: auto;
+  border-radius: 2px;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  margin-bottom: 12px;
+}

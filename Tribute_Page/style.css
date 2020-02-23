@@ -1,0 +1,49 @@
+body {
+  background-color: #fd45a4;
+}
+
+#main {
+  font-family: 'Roboto Slab', serif;
+  margin: 5% 0 5% 0;
+  padding: 3vh 0 3vh 0;
+  border-radius: 3%;
+  background-color: pink;
+}
+
+#title {
+  text-align: center;
+}
+
+#img-div {
+  text-align: center;
+}
+
+#image {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#img-caption {
+  font-size: 0.8em;
+  padding: 0 8vw 0 8vw;
+}
+
+#tribute-info {
+  line-height: 1.6;
+  padding: 0 10vw 0 10vw;
+}
+
+hr {
+  margin: -4vh 0 -1vh 0;
+}
+
+footer {
+  font-size: 0.6em;
+  padding: 4vh 0 0 0;
+}
+
+#tribute-link {
+  
+}

@@ -1,0 +1,143 @@
+<head>
+  <link 
+        href="https://fonts.googleapis.com/css?family=Montserrat"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+  <meta 
+        name="viewport" 
+        content="width=device-width, initial-scale=1">
+</head>
+
+<h1 id="title">Survey Form</h1>
+
+  <p id="description">Tell us about your taste in movies and such.</p>
+  <form id="survey-form">
+    <ul class="outer-flex">
+      <li>
+    <label
+       for="name"
+       id="name-label">
+      Name: <abbr title="required">*</abbr>
+    </label>
+    <input
+           id="name"
+           type="text"
+           name="name"
+           placeholder="Your name please"
+           required>
+      </li>
+      <li>
+    <label 
+           for="email"
+           id="email-label">
+      Email: <abbr title="required">*</abbr>
+    </label>
+    <input
+           id="email"
+           type="email"
+           name="email"
+           placeholder="eg you@example.com"
+           required>
+      </li>
+      <li>
+    <label
+           for="number"
+           id="number-label">
+      Age: <abbr title="required">*</abbr>
+    </label>
+    <input
+           id="number"
+           type="number"
+           name="number"
+           min="5"
+           max="120"
+           placeholder="Age"
+           required>
+      </li>
+      <li>
+      <span class="col1">Do you prefer Live Action or Animation?</span>
+    <ul class="inner-flex">
+      <li>
+     <label 
+            for="Animation">
+          <input 
+                 id="Animation" 
+                 type="radio" 
+                 name="Ani-Live" 
+                 value="Animation">
+          Animation
+        </label>
+      </li>
+      <li>
+         <label 
+            for="Live-Action">
+          <input 
+                 id="Live-Action" 
+                 type="radio" 
+                 name="Ani-Live" 
+                 value="Live-Action">
+          Live Action
+        </label>
+      </li>
+    </ul>
+      </li>
+      <li>
+      <label for="dropdown">
+      What is your all time favorite genre?
+      <abbr title="required">*</abbr>
+    </label>
+       <select
+               id="dropdown"
+               name="genre">
+         <option
+                 value=""
+                 selected disabled hidden>
+           Choose a genre
+           </option>
+         <option value="action">Action</option>
+         <option value="comedy">Comedy</option>
+         <option value="drama">Drama</option>
+         </select>
+      </li>
+      <li>
+        <span>Pick any and all genres you like:</span>
+      <ul class="inner-flex">
+        <li>
+        <label for="drama">
+        <input
+               id="drama"
+               name="genres"
+               type="checkbox"
+               value="drama">Drama
+          </label>
+        </li>
+        <li>
+        <label for="comedy">
+          <input
+                 id="comedy"
+                 name="genres"
+                 type="checkbox"
+                 value="comedy">Comedy
+          </label>
+        </li>
+        <li>
+        <label for="action">
+          <input
+                 id="action"
+                 name="genres"
+                 type="checkbox"
+                 value="action">Action
+          </label>
+        </li>
+      </ul>
+      </li>
+      <li>
+        <span>Describe your favorite movie</span>
+    <textarea placeholder="Describe your favorite movie in 500 characters or less."
+              rows="5" 
+              col="100" 
+              maxlength="500"></textarea>
+      </li>
+    </ul>
+    <button id="submit" type="submit">Submit</button>
+  </form>
