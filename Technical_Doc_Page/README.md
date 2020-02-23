@@ -5,6 +5,6 @@ This page was created for Free Code Camp's responsive web design projects using 
 
 View the website here: https://codepen.io/Elemeandor/full/KKwROgN
 
-![desktop version](https://raw.githubusercontent.com/DrantDumani/Free-code-camp_projects/master/Screenshot_2020-01-12%20Technical%20Documentation%20Page(1).png)
+![desktop version](https://raw.githubusercontent.com/DrantDumani/Free-Code-Camp-pages/master/Technical_Doc_Page/screenshots/Screenshot_2020-01-12%20Technical%20Documentation%20Page(1).png)
 
-![mobile version](https://raw.githubusercontent.com/DrantDumani/Free-code-camp_projects/master/Screenshot_2020-01-12%20Technical%20Documentation%20Page.png)
+![mobile version](https://raw.githubusercontent.com/DrantDumani/Free-Code-Camp-pages/master/Technical_Doc_Page/screenshots/Screenshot_2020-01-12%20Technical%20Documentation%20Page.png)
